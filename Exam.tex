@@ -51,58 +51,29 @@ A complete product does not mean that we have nothing to show. It just mean that
 
 \section{Final reflections on the project and learning}
 
-\tobedeleted{This is the most important part of the final hand-in.}
+\subsection{Early sprints}
+That was not much that surprised me in the first two sprints. But I learned that to many meetings to close to each other leads to inefficient work and meetings.
+As mentioned in handin 1 we used to meeting on Tuesdays, Wednesdays and Thursdays but we found out that did not work each day on the project, do to other priorities like other classes. 
+To fix the issue we moved the daily scrum meetings to be Monday, Wednesdays and Fridays. Where Fridays are canceled in the last week of the sprint where we have our review and retrospective on Thursdays.
+\subsection{Middle sprints}
+during the middle of the project we realized that our architecture of the code base was bad, so we decided to refactor our to follow the \href{https://en.wikipedia.org/wiki/Model-view-presenter}{MVP pattern}. The major part of the refactor was done in pull request \#46.
+We also had the issue about people not looking at pull requests. As mentioned in handin 2 we tried to solve this by adding a "In Review" field on our kanban board. This field is a subfield of "In Progress". With this field we hoped that it would aid in transparency.
+The "In Review" field partially worked. This was due to many of our pr's not being an entire item, because we decided to work more trunk based.
+\subsection{Late sprints}
+During the later sprints I had an issue with communication as mentioned above and below.
+I also had a exam on the 18th of May so I put the project on the backburner in the last sprint.
+\subsection{Collaboration and teamwork}
+The biggest conflict I was a part of and one I regret was the one mentioned in section \ref{sec:actual}.\\
+I had in the past worked on a view switcher between two sub parts of our program. At one point it was changed to work differently. While testing i could not get the new version to work, so I reverted it back to the original. In a latter pr the switcher was changed again, and could not see the reason for why so in the review I wrote:
 
-\tobedeleted{Your reflection must:}
+\say{Looks somewhat good. But Why is the table view deleted???? And why the hate for my functional switch\_view() method and replace it for something that does not work properly???}
 
-\begin{itemize}
-    \item \tobedeleted{for BSc students: be between 1 and 2 pages,}
-    \item \tobedeleted{for MSc students: be between 2 and 3 pages and include references to relevant 
-  research, as required by the ILOs.}
-\end{itemize}
-
-\tobedeleted{Your reflection must reference at least three concrete project artifacts, such as:}
-\begin{itemize}
-    \item \tobedeleted{backlog items (include IDs),}
-    \item \tobedeleted{PRs or commits (include identifiers),}
-    \item \tobedeleted{retro board items,}
-    \item \tobedeleted{sprint goals,}
-    \item \tobedeleted{teacher, TA or agile coach feedback,}
-    \item \tobedeleted{design or architectural changes.}   
-\end{itemize}
-
-
-\tobedeleted{Structure your reflection around the following:}
-
-\begin{itemize}
-    \item \tobedeleted{Early sprints (1–2): what surprised you and why.}
-    \item \tobedeleted{Middle sprints (3–4): one challenge or failure, why it happened, and what you 
-   learned.}
-    \item \tobedeleted{Late sprints (5–6): what improved, what changed, and why.}
-    \item \tobedeleted{Collaboration and teamwork: describe one conflict, disagreement, or tension 
-   (use initials, not names), how it was addressed, and what you learned.}
-    \item \tobedeleted{Scrum/SE practices: what you would do differently next time and why.}
-    \item \tobedeleted{MSc only: relate your learning to one or two relevant research papers or 
-   frameworks, and explain how they helped you understand or analyse your 
-   project experience.}   
-\end{itemize}
-
-
-\tobedeleted{Generic or hypothetical descriptions are insufficient. Your reflection must be 
-tied to your actual experience and supported by concrete evidence.}
-
-
-
-
-
-
-
-
-
-
-
-
-
+On later retrospective I realized that what I wrote was poorly formulated and overly negative. 
+This caused the author to feel like I yelled at them, and I probably accidentally did.
+We solved the issue by me apologizing for my rude comment. 
+This was probably the biggest regret of the I have of the project.
+\subsection{Scrum/SE practice}
+Throughout the project we have adapted our workflow. The biggest changes we have made was to move the time of our daily scrum meetings and making the "In Review" field 
 
 \newpage
 \bibliographystyle{plain}
